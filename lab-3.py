@@ -32,8 +32,6 @@ if user_input:
     with st.chat_message("user"):
         st.write(user_input)
 
-    # Build the buffer by token count, starting from the most recent message
-    # and adding older ones until we would go over max_tokens.
     history = st.session_state.messages[1:]
 
     buffer = []
