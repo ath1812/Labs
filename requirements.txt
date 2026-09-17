@@ -1,4 +1,10 @@
 streamlit
+requests
+beautifulsoup4
 openai
-tiktoken
-fitz
+google-generativeai==0.8.3
+tiktoken==0.14.0
+chromadb
+pysqlite3-binary
+PyPDF2
+protobuf==3.20
