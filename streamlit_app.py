@@ -5,5 +5,5 @@ lab2_page = st.Page("lab-2.py", title="Lab 2", icon="🧪")
 lab3_page = st.Page("lab-3.py", title="Lab 3", icon="🧪")
 lab4_page = st.Page("lab-4.py", title="Lab 4", icon="🧪")
 
-pg = st.navigation([lab1_page, lab2_page, lab3_page])
+pg = st.navigation([lab1_page, lab2_page, lab3_page,lab4_page])
 pg.run()
