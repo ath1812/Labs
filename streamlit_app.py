@@ -5,8 +5,8 @@ lab2_page = st.Page("lab-2.py", title="Lab 2", icon="🧪")
 lab3_page = st.Page("lab-3.py", title="Lab 3", icon="🧪")
 lab4_page = st.Page("lab-4.py", title="Lab 4", icon="🧪")
 lab5_page = st.Page("lab-5.py", title="Lab 5", icon="🧪")
-lab7_page = st.Page("LabMultimodal.py", title="Lab 7", icon="🧪")
-lab_multiagent_page = st.Page("LabMultiAgent.py", title="Multi-Agent Lab", icon="🧪")
+lab7_page = st.Page("Lab-7.py", title="Lab 7", icon="🧪")
+lab_multiagent_page = st.Page("Lab-9.py", title="Lab 9", icon="🧪")
 
 pg = st.navigation([
     lab1_page,
@@ -15,6 +15,6 @@ pg = st.navigation([
     lab4_page,
     lab5_page,
     lab7_page,
-    lab_multiagent_page,
+    lab_9,
 ])
 pg.run()
